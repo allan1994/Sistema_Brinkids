@@ -1,0 +1,260 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sistema Brinkids</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- Bootstrap Core CSS -->
+        <link href="/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+        <!-- Custom CSS -->
+        <link href="/css/style.css" rel='stylesheet' type='text/css' />
+        <!-- Graph CSS -->
+        <link href="/css/font-awesome.css" rel="stylesheet"> 
+        <!-- jQuery -->
+        <link href='//fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'>
+        <!-- lined-icons -->
+        <link rel="stylesheet" href="/css/icon-font.min.css" type='text/css' />
+        <!-- //lined-icons -->
+        <script src="/js/jquery-1.10.2.min.js"></script>
+        <script src="/js/amcharts.js"></script>	
+        <script src="/js/serial.js"></script>	
+        <script src="/js/light.js"></script>	
+        <script src="/js/radar.js"></script>	
+        <link href="/css/barChart.css" rel='stylesheet' type='text/css' />
+        <link href="/css/fabochart.css" rel='stylesheet' type='text/css' />
+        <!--clock init-->
+        <script src="/js/css3clock.js"></script>
+        <!--Easy Pie Chart-->
+        <!--skycons-icons-->
+        <script src="/js/skycons.js"></script>
+
+        <script src="/js/jquery.easydropdown.js"></script>
+
+        <!--//skycons-icons-->
+    </head> 
+    <body>
+        <div class="page-container">
+            <!--/content-inner-->
+            <div class="left-content">
+                <div class="inner-content">
+                    <!-- header-starts -->
+                    <div class="header-section">
+                        <!--menu-right-->
+                        <div class="top_menu">
+
+                        </div>
+                        <!--//menu-right-->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- //header-ends -->
+                    <div class="outter-wp">                        	
+                        <!--/forms-->
+                        <div class="forms-main">
+                            <h2 class="inner-tittle">Entrada Aniversário</h2>
+                            <div class="graph-form">
+                                <div class="validation-form">
+                                    <!---->
+                                    <form>
+                                        <div class="col-md-12 form-group2 group-mail">
+                                            <label class="control-label">Aniversário de:</label>
+                                            <select>
+                                                <option value="">Contrary fgsdfgsdg</option>
+                                                <option value="">Contrary1</option>
+                                                <option value="">Contrary2 fjhgjhgh</option>
+                                                <option value="">Contrary3</option>
+                                                <option value="">Contrary4</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-12 form-group1 group-mail">
+                                            <label class="control-label">Nome</label>
+                                            <input type="text" placeholder="Nome da Criança" required="">
+                                        </div>
+                                        <div class="col-md-12 form-group2 group-mail">
+                                            <label class="control-label">Responsável</label>
+                                            <select>
+                                                <option value="">Contrary - Tel</option>
+                                                <option value="">Contrary1</option>
+                                                <option value="">Contrary2 -  TEL</option>
+                                                <option value="">Contrary3</option>
+                                                <option value="">Contrary4</option>
+                                            </select>
+                                        </div>
+                                        <div class="clearfix"></div><br>
+                                        <div class="col-md-12">
+                                            <div style="width:330px;float:left;">
+                                                <div id="webcam"></div>
+                                            </div>
+                                            <div>
+                                                <div class="buttons-ui" style="float: left;">
+                                                    <p><button class="fa fa-camera" onclick="base64_toimage()"></button></p>
+                                                    <p><button class="fa fa-cloud-download" aria-hidden="true"></button></p>
+                                                    <p><button class="fa fa-cog" aria-hidden="true"></button></p>
+                                                </div>
+                                            </div>
+                                            <div style="width:330px;float:left;">                                                
+                                                <p><img id="image" style="margin-left: 4%;"/></p>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-12 form-group1">
+                                            <label class="control-label">Restrição Alimentar</label>
+                                            <textarea></textarea>
+                                        </div>
+                                        <div class="col-md-12 form-group1">
+                                            <label class="control-label">Alergia</label>
+                                            <textarea></textarea>
+                                        </div>
+                                        <div class="col-md-12 form-group1">
+                                            <label class="control-label">Observações</label>
+                                            <textarea></textarea>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                        <div class="col-md-12 form-group button-2">
+                                            <button type="submit" class="btn btn-primary">Entrar</button>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </form>
+                                </div>
+                                <!---->
+                            </div>
+                        </div>
+                    </div>
+                    <!--footer section start-->
+                    <footer>
+                        <p>&copy 2017 Brinkids . Desenvolvido por <a href="http://allandemiranda.com.br/" target="_blank">Allan de Miranda</a>.</p>
+                    </footer>
+                    <!--footer section end-->
+                </div>
+            </div>
+            <!--//content-inner-->
+            <!--/sidebar-menu-->
+            <div class="sidebar-menu">
+                <header class="logo">
+                    <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="/"> <span id="logo"> <h1>Brinkids</h1></span> 
+                        <!--<img id="logo" src="" alt="Logo"/>--> 
+                    </a> 
+                </header>
+                <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
+                <!--/down-->
+                <div class="down">	
+                    <a href="#"><img src="/images/admin.jpg"></a>
+                    <span class=" name-caret">Jasmin Leo</span>
+                    <p>Gerente</p>
+                    <ul>
+                        <li><a class="tooltips" href="#"><span>Perfil</span><i class="lnr lnr-user"></i></a></li>
+                        <li><a class="tooltips" href="#"><span>Config</span><i class="lnr lnr-cog"></i></a></li>
+                        <li><a class="tooltips" href="#"><span>Sair</span><i class="lnr lnr-power-switch"></i></a></li>
+                    </ul>
+                </div>
+                <!--//down-->
+                <div class="menu">
+                    <ul id="menu" >                        
+                        <li id="menu-academico"><a><i class="fa fa-level-up"></i><span>Entrada</span> <span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="#">Passaporte</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Aniversário</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-academico" ><a href="#"><i class="fa fa-address-card-o"></i><span>Cadastro</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="/cadastro/novo">Novo</a></li>
+                                <li id="menu-academico-boletim"><a href="/cadastro/">Editar</a></li>
+                                <li id="menu-academico-boletim"><a href="/cadastro/">Deletar</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-academico" ><a href="#"><i class="fa fa-level-down"></i><span>Saída</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="#">Passaporte</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Aniversário</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Cancelar</a></li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>		
+        </div>
+
+
+        <!-- WEBCAN !-->
+        <script language="JavaScript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script language="JavaScript" src="//ajax.googleapis.com/ajax/libs/swfobject/2.2/swfobject.js"></script>
+        <script language="JavaScript" src="/webcam/scriptcam.js"></script>
+        <script language="JavaScript">
+                                                        $(document).ready(function () {
+                                                            $("#webcam").scriptcam({
+                                                                showMicrophoneErrors: false,
+                                                                onError: onError,
+                                                                cornerRadius: 20,
+                                                                cornerColor: 'e3e5e2',
+                                                                onWebcamReady: onWebcamReady,
+                                                                uploadImage: 'upload.gif',
+                                                                onPictureAsBase64: base64_tofield_and_image
+                                                            });
+                                                        });
+                                                        function base64_tofield() {
+                                                            $('#formfield').val($.scriptcam.getFrameAsBase64());
+                                                        }
+                                                        ;
+                                                        function base64_toimage() {
+                                                            $('#image').attr("src", "data:image/png;base64," + $.scriptcam.getFrameAsBase64());
+                                                        }
+                                                        ;
+                                                        function base64_tofield_and_image(b64) {
+                                                            $('#formfield').val(b64);
+                                                            $('#image').attr("src", "data:image/png;base64," + b64);
+                                                        }
+                                                        ;
+                                                        function changeCamera() {
+                                                            $.scriptcam.changeCamera($('#cameraNames').val());
+                                                        }
+                                                        function onError(errorId, errorMsg) {
+                                                            $("#btn1").attr("disabled", true);
+                                                            $("#btn2").attr("disabled", true);
+                                                            alert(errorMsg);
+                                                        }
+                                                        function onWebcamReady(cameraNames, camera, microphoneNames, microphone, volume) {
+                                                            $.each(cameraNames, function (index, text) {
+                                                                $('#cameraNames').append($('<option></option>').val(index).html(text))
+                                                            });
+                                                            $('#cameraNames').val(camera);
+                                                        }
+        </script> 
+
+
+
+        <!--FIM WEBCAN !-->
+
+
+        <script>
+            var toggle = true;
+
+            $(".sidebar-icon").click(function () {
+                if (toggle)
+                {
+                    $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+                    $("#menu span").css({"position": "absolute"});
+                } else
+                {
+                    $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+                    setTimeout(function () {
+                        $("#menu span").css({"position": "relative"});
+                    }, 400);
+                }
+
+                toggle = !toggle;
+            });
+        </script>
+        <!--js -->
+        <link rel="stylesheet" href="/css/vroom.css">
+        <script type="text/javascript" src="/js/vroom.js"></script>
+        <script type="text/javascript" src="/js/TweenLite.min.js"></script>
+        <script type="text/javascript" src="/js/CSSPlugin.min.js"></script>
+        <script src="/js/jquery.nicescroll.js"></script>
+        <script src="/js/scripts.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

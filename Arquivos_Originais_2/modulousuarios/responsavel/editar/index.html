@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Sistema Brinkids</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+        <!-- Bootstrap Core CSS -->
+        <link href="/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+        <!-- Custom CSS -->
+        <link href="/css/style.css" rel='stylesheet' type='text/css' />
+        <!-- Graph CSS -->
+        <link href="/css/font-awesome.css" rel="stylesheet"> 
+        <!-- jQuery -->
+        <link href='//fonts.googleapis.com/css?family=Roboto:700,500,300,100italic,100,400' rel='stylesheet' type='text/css'>
+        <!-- lined-icons -->
+        <link rel="stylesheet" href="/css/icon-font.min.css" type='text/css' />
+        <!-- //lined-icons -->
+        <script src="/js/jquery-1.10.2.min.js"></script>
+        <script src="/js/amcharts.js"></script>	
+        <script src="/js/serial.js"></script>	
+        <script src="/js/light.js"></script>	
+        <script src="/js/radar.js"></script>	
+        <link href="/css/barChart.css" rel='stylesheet' type='text/css' />
+        <link href="/css/fabochart.css" rel='stylesheet' type='text/css' />
+        <!--clock init-->
+        <script src="/js/css3clock.js"></script>
+        <!--Easy Pie Chart-->
+        <!--skycons-icons-->
+        <script src="/js/skycons.js"></script>
+        <script src="/js/jquery.easydropdown.js"></script>
+        <!--//skycons-icons-->
+    </head> 
+    <body>
+        <div class="page-container">
+            <!--/content-inner-->
+            <div class="left-content">
+                <div class="inner-content">
+                    <!-- header-starts -->
+                    <div class="header-section">
+                        <!--menu-right-->
+                        <div class="top_menu">
+                        </div>
+                        <!--//menu-right-->
+                        <div class="clearfix"></div>
+                    </div>
+                    <!-- //header-ends -->
+                    <div class="outter-wp">                        	
+                        <!--/forms-->
+                        <div class="forms-main">
+                            <h2 class="inner-tittle">Editar Responsável</h2>
+                            <div class="graph-form">
+                                <div class="validation-form">
+                                    <!---->
+                                    <form>                                        
+                                        <div class="col-md-12 form-group1 group-mail">
+                                            <label class="control-label">Nome</label>
+                                            <input type="text" placeholder="Nome do Responsável" required="">
+                                        </div>                                        
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-6 form-group1">
+                                            <label class="control-label">Data de Nascimento</label>
+                                            <input type="date">
+                                        </div>
+                                        <div class="col-md-6 form-horizontal form-last">
+                                            <label class="col-sm-2 control-label">Sexo</label>
+                                            <div class="col-sm-8" style="margin-top: 5%;">
+                                                <div class="radio block"><label><input name="Sexo" type="radio" checked> Masculino</label></div>
+                                                <div class="radio block"><label><input name="Sexo" type="radio"> Feminino</label></div>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-4 form-group1">
+                                            <label class="control-label">R.G.</label>
+                                            <input type="text" placeholder="000.000.000">
+                                        </div>
+                                        <div class="col-md-4 form-group1">
+                                            <label class="control-label">CPF</label>
+                                            <input type="text" required="" placeholder="000.000.000-00" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}">
+                                        </div>
+                                        <div class="col-md-4 form-group1">
+                                            <label class="control-label">Telefone</label>
+                                            <input type="text" required="" placeholder="(84) 9.0000-0000" pattern="^(\([1-9]{2}\) [0-9]{5}-[0-9]{4})$">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-3 form-group1">
+                                            <label class="control-label">CEP</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-9 form-group1">
+                                            <label class="control-label">Endereço</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-3 form-group1">
+                                            <label class="control-label">Número</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-3 form-group1">
+                                            <label class="control-label">Bairro</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-3 form-group1">
+                                            <label class="control-label">Cidade</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="col-md-3 form-group1">
+                                            <label class="control-label">Estado</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div class="col-md-12 form-group1">
+                                            <label class="control-label">Complemento</label>
+                                            <input type="text">
+                                        </div>
+                                        <div class="clearfix"></div>                                        
+                                        <div class="col-md-12 form-group1">
+                                            <label class="control-label">Observações</label>
+                                            <textarea placeholder="Observações..."></textarea>                    
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                        <div class="col-md-12 form-group button-2">
+                                            <button type="submit" class="btn btn-primary">Salvar</button>
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </form>
+                                </div>
+                                <!---->
+                            </div>
+                        </div>
+                    </div>
+                    <!--footer section start-->
+                    <footer>
+                        <p>&copy 2017 Brinkids . Desenvolvido por <a href="http://allandemiranda.com.br/" target="_blank">Allan de Miranda</a>.</p>
+                    </footer>
+                    <!--footer section end-->
+                </div>
+            </div>
+            <!--//content-inner-->
+            <!--/sidebar-menu-->
+            <div class="sidebar-menu">
+                <header class="logo">
+                    <a href="#" class="sidebar-icon"> <span class="fa fa-bars"></span> </a> <a href="/"> <span id="logo"> <h1>Brinkids</h1></span> 
+                        <!--<img id="logo" src="" alt="Logo"/>--> 
+                    </a> 
+                </header>
+                <div style="border-top:1px solid rgba(69, 74, 84, 0.7)"></div>
+                <!--/down-->
+                <div class="down">	
+                    <a href="#"><img src="/images/admin.jpg"></a>
+                    <span class=" name-caret">Jasmin Leo</span>
+                    <p>Gerente</p>
+                    <ul>
+                        <li><a class="tooltips" href="#"><span>Perfil</span><i class="lnr lnr-user"></i></a></li>
+                        <li><a class="tooltips" href="#"><span>Config</span><i class="lnr lnr-cog"></i></a></li>
+                        <li><a class="tooltips" href="#"><span>Sair</span><i class="lnr lnr-power-switch"></i></a></li>
+                    </ul>
+                </div>
+                <!--//down-->
+                <div class="menu">
+                    <ul id="menu" >                        
+                        <li id="menu-academico"><a><i class="fa fa-level-up"></i><span>Entrada</span> <span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="#">Passaporte</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Aniversário</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-academico" ><a href="#"><i class="fa fa-address-card-o"></i><span>Cadastro</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="/cadastro/novo">Novo</a></li>
+                                <li id="menu-academico-boletim"><a href="/cadastro/">Editar</a></li>
+                                <li id="menu-academico-boletim"><a href="/cadastro/">Deletar</a></li>
+                            </ul>
+                        </li>
+                        <li id="menu-academico" ><a href="#"><i class="fa fa-level-down"></i><span>Saída</span><span class="fa fa-angle-right" style="float: right"></span></a>
+                            <ul id="menu-academico-sub" >
+                                <li id="menu-academico-avaliacoes"><a href="#">Passaporte</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Aniversário</a></li>
+                                <li id="menu-academico-boletim"><a href="#">Cancelar</a></li>
+                            </ul>
+                        </li>                        
+                    </ul>
+                </div>
+            </div>
+            <div class="clearfix"></div>		
+        </div>
+        <script>
+            var toggle = true;
+
+            $(".sidebar-icon").click(function () {
+                if (toggle)
+                {
+                    $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+                    $("#menu span").css({"position": "absolute"});
+                } else
+                {
+                    $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+                    setTimeout(function () {
+                        $("#menu span").css({"position": "relative"});
+                    }, 400);
+                }
+
+                toggle = !toggle;
+            });
+        </script>
+        <!--js -->
+        <link rel="stylesheet" href="/css/vroom.css">
+        <script type="text/javascript" src="/js/vroom.js"></script>
+        <script type="text/javascript" src="/js/TweenLite.min.js"></script>
+        <script type="text/javascript" src="/js/CSSPlugin.min.js"></script>
+        <script src="/js/jquery.nicescroll.js"></script>
+        <script src="/js/scripts.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="/js/bootstrap.min.js"></script>
+    </body>
+</html>

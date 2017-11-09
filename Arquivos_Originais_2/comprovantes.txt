@@ -1,0 +1,180 @@
+        ****NÃO TEM VALOR FISCAL****
+        
+           BRINKIDS - 01/01/2001
+
+     PACOTE PASSAPORTE - ENTRADA 01:01h
+
+ Responsável: 1234567890123456 ID: 12345678
+ Telefone: (00) 000000000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ -
+ Pertences: Gaveta 00
+
+ Atendente: 123456789012345678 ID: 12345678
+ Protocolo: 1234567890123456789012345678901
+
+        Senha das Câmeras: 123456789
+
+         www.brinkidsonline.com.br
+       contato@brinkidsonline.com.br
+           Fone: (84) 3206-8293
+
+
+-------------------------------------------
+
+
+        ****NÃO TEM VALOR FISCAL****
+        
+           BRINKIDS - 01/01/2001
+
+  	   SAÍDA 01:01h - PARCIAL
+
+ Responsável: 1234567890123456 ID: 12345678
+ Telefone: (00) 000000000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: ANIVERSÁRIO   Entrada: 10:10 horas
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: PASSAPORTE    Entrada: 10:10 horas
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: PASSAPORTE    Entrada: 10:10 horas
+
+ Detalhamento:
+ Serviço      Usuário    Quant.  Valor
+ PASSAPORTE   000-00000  000 min R$ 000,00 
+ ANIVERSÁRIO  000-00000  000 min R$ 000,00 
+ PASSAPORTE   000-00000  000 min R$ 000,00 
+ PASSAPORTE   000-00000  000 min R$ 000,00
+			 Total: R$ 0000,00
+
+ Desconto             Usuário    Valor
+ ANIVERSÁRIO 10%      000-00000  R$ 000,00
+ LOGISTA 10%          000-00000  R$ 000,00
+			 Total: R$ 0000,00
+
+ Valor a pagar: R$ 000,00
+
+ Atendente: 123456789012345678 ID: 12345678
+ Protocolo: 1234567890123456789012345678901
+
+         www.brinkidsonline.com.br
+       contato@brinkidsonline.com.br
+           Fone: (84) 3206-8293
+
+
+-------------------------------------------
+
+
+        ****NÃO TEM VALOR FISCAL****
+        
+           BRINKIDS - 01/01/2001
+
+  	 SAÍDA 01:01h - RECIBO FINAL
+
+ Responsável: 1234567890123456 ID: 12345678
+ Telefone: (00) 000000000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: ANIVERSÁRIO   Entrada: 10:10 horas
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: PASSAPORTE    Entrada: 10:10 horas
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: PASSAPORTE    Entrada: 10:10 horas
+
+ Detalhamento:
+ Serviço      Usuário    Quant.  Valor
+ PASSAPORTE   000-00000  000 min R$ 000,00 
+ ANIVERSÁRIO  000-00000  000 min R$ 000,00 
+ PASSAPORTE   000-00000  000 min R$ 000,00 
+ PASSAPORTE   000-00000  000 min R$ 000,00
+			 Total: R$ 0000,00
+
+ Desconto             Usuário    Valor
+ ANIVERSÁRIO 10%      000-00000  R$ 000,00
+ LOGISTA 10%          000-00000  R$ 000,00
+ FIDELIDADE 30        000-00000  R$ 000,00
+ FIDELIDADE 45        000-00000  R$ 000,00
+			 Total: R$ 0000,00
+
+ Valor pago: R$ 000,00 em Cartão Crédito
+
+ Atendente: 123456789012345678 ID: 12345678
+ Protocolo: 1234567890123456789012345678901
+
+         www.brinkidsonline.com.br
+       contato@brinkidsonline.com.br
+           Fone: (84) 3206-8293
+
+
+-------------------------------------------
+
+
+        ****NÃO TEM VALOR FISCAL****
+        
+           BRINKIDS - 01/01/2001
+
+        ANIVERSÁRIO - ENTRADA 01:01h
+
+ Aniversariante: 12345678901234567890123456 
+ Início: 00:00 Horas  Finaliza: 00:00 Horas 
+ Data: 00/00/0000              ID: 12345678
+ -
+ Responsável: 1234567890123456 ID: 12345678
+ Telefone: (00) 000000000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ OBS: 1234567890132456789012345678901234567
+ 890123456789012345678901234657890132456789
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ -
+ Criança: 12345678901234567890 ID: 12345678
+ Parentesco: 123456789012 Fidelidade: 00000
+ -
+ Pertences: Gaveta 00
+
+ Atendente: 123456789012345678 ID: 12345678
+ Protocolo: 1234567890123456789012345678901
+
+        Senha das Câmeras: 123456789
+
+         www.brinkidsonline.com.br
+       contato@brinkidsonline.com.br
+           Fone: (84) 3206-8293
+
+
+-------------------------------------------
