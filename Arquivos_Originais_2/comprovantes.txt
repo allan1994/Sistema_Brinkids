@@ -1,8 +1,6 @@
         ****NÃO TEM VALOR FISCAL****
         
-           BRINKIDS - 01/01/2001
-
-     PACOTE PASSAPORTE - ENTRADA 01:01h
+      BRINKIDS - ENTRADA - 01/01/2001
 
  Responsável: 1234567890123456 ID: 12345678
  Telefone: (00) 000000000
@@ -11,14 +9,11 @@
  -
  Criança: 12345678901234567890 ID: 12345678
  Parentesco: 123456789012 Fidelidade: 00000
- OBS: 1234567890132456789012345678901234567
- 890123456789012345678901234657890132456789
+ Pacote: PASSAPORTE    Entrada: 10:10 horas
  -
  Criança: 12345678901234567890 ID: 12345678
  Parentesco: 123456789012 Fidelidade: 00000
- -
- Criança: 12345678901234567890 ID: 12345678
- Parentesco: 123456789012 Fidelidade: 00000
+ Pacote: 1234567890123 Entrada: 10:10 horas
  -
  Pertences: Gaveta 00
 
@@ -47,7 +42,7 @@
  890123456789012345678901234657890132456789
  -
  Criança: 12345678901234567890 ID: 12345678
- Parentesco: 123456789012 Fidelidade: 00000
+ Parentesco: 123456789012 Fidelidade: 12345
  Pacote: ANIVERSÁRIO   Entrada: 10:10 horas
  OBS: 1234567890132456789012345678901234567
  890123456789012345678901234657890132456789
@@ -58,22 +53,22 @@
  -
  Criança: 12345678901234567890 ID: 12345678
  Parentesco: 123456789012 Fidelidade: 00000
- Pacote: PASSAPORTE    Entrada: 10:10 horas
+ Pacote: 1234567890123 Entrada: 10:10 horas
 
  Detalhamento:
- Serviço      Usuário    Quant.  Valor
- PASSAPORTE   000-00000  000 min R$ 000,00 
- ANIVERSÁRIO  000-00000  000 min R$ 000,00 
- PASSAPORTE   000-00000  000 min R$ 000,00 
- PASSAPORTE   000-00000  000 min R$ 000,00
-			 Total: R$ 0000,00
+ Serviço      Usuário    Quant. Valor
+ PASSAPORTE   00000000  000 min R$ 0.000,00 
+ ANIVERSÁRIO  00000000  000 min R$ 0.000,00 
+ PASSAPORTE   00000000  000 min R$ 0.000,00 
+ PASSAPORTE   00000000  000 min R$ 0.000,00
+			Total:  R$ 0.000,00
 
- Desconto             Usuário    Valor
- ANIVERSÁRIO 10%      000-00000  R$ 000,00
- LOGISTA 10%          000-00000  R$ 000,00
-			 Total: R$ 0000,00
+ Desconto            Usuário    Valor
+ ANIVERSÁRIO 10%     00000000   R$ 0.000,00
+ LOGISTA 10%         00000000   R$ 0.000,00
+		       Total:   R$ 0.000,00
 
- Valor a pagar: R$ 000,00
+ Valor a pagar: R$ 0.000,00
 
  Atendente: 123456789012345678 ID: 12345678
  Protocolo: 1234567890123456789012345678901
@@ -112,21 +107,19 @@
  Pacote: PASSAPORTE    Entrada: 10:10 horas
 
  Detalhamento:
- Serviço      Usuário    Quant.  Valor
- PASSAPORTE   000-00000  000 min R$ 000,00 
- ANIVERSÁRIO  000-00000  000 min R$ 000,00 
- PASSAPORTE   000-00000  000 min R$ 000,00 
- PASSAPORTE   000-00000  000 min R$ 000,00
-			 Total: R$ 0000,00
+ Serviço      Usuário    Quant. Valor
+ PASSAPORTE   00000000  000 min R$ 0.000,00 
+ ANIVERSÁRIO  00000000  000 min R$ 0.000,00 
+ PASSAPORTE   00000000  000 min R$ 0.000,00 
+ PASSAPORTE   00000000  000 min R$ 0.000,00
+			Total:  R$ 0.000,00
 
- Desconto             Usuário    Valor
- ANIVERSÁRIO 10%      000-00000  R$ 000,00
- LOGISTA 10%          000-00000  R$ 000,00
- FIDELIDADE 30        000-00000  R$ 000,00
- FIDELIDADE 45        000-00000  R$ 000,00
-			 Total: R$ 0000,00
+ Desconto            Usuário    Valor
+ ANIVERSÁRIO 10%     00000000   R$ 0.000,00
+ LOGISTA 10%         00000000   R$ 0.000,00
+		       Total:   R$ 0.000,00
 
- Valor pago: R$ 000,00 em Cartão Crédito
+ Valor a pagar: R$ 0.000,00 em Cartão-Crédito
 
  Atendente: 123456789012345678 ID: 12345678
  Protocolo: 1234567890123456789012345678901
@@ -141,9 +134,7 @@
 
         ****NÃO TEM VALOR FISCAL****
         
-           BRINKIDS - 01/01/2001
-
-        ANIVERSÁRIO - ENTRADA 01:01h
+     BRINKIDS - ANIVERSÁRIO - 01/01/2001
 
  Aniversariante: 12345678901234567890123456 
  Início: 00:00 Horas  Finaliza: 00:00 Horas 
